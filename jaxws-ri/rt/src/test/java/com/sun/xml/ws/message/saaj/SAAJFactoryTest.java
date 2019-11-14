@@ -139,7 +139,7 @@ public class SAAJFactoryTest extends TestCase {
         XMLStreamReader envelope = inputFactory.createXMLStreamReader(new StringReader("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                 "<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\">" +
                 "<s:Body>" +
-                "<SampleServiceRequest xmlns=\"http://sample.ex.org/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">" +
+                "<SampleServiceRequest xmlns=\"http://sample.ex.org/\">" +
                 "<RequestParams xmlns=\"\">" +
                 "<Param1>hogehoge</Param1>" +
                 "<Param2>fugafuga</Param2>" +
@@ -193,7 +193,7 @@ public class SAAJFactoryTest extends TestCase {
         XMLStreamReader envelope = inputFactory.createXMLStreamReader(new StringReader("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                 "<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\">" +
                 "<s:Body>" +
-                "<SampleServiceRequest xmlns=\"http://sample.ex.org/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">" +
+                "<SampleServiceRequest xmlns=\"http://sample.ex.org/\">" +
                 "<RequestParams xmlns=\"\">" +
                 "<Param1>hogehoge</Param1>" +
                 "<Param2>fugafuga</Param2>" +
